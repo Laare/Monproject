@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Dupont - ProFind</title>
+    <link rel="stylesheet" href="pour_les_arsisons.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://api.iconify.design/lucide:wrench.svg" alt="Logo" class="logo-icon">
+                <span>ProFind</span>
+            </div>
+            
+            <nav class="nav">
+                <button class="mobile-menu" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="find-artisan.html" class="nav-link">Trouver un Artisan</a></li>
+                    <li><a href="#" class="nav-link active">Pour les Artisans</a></li>
+                    <li><a href="#" class="nav-link">Services</a></li>
+                    <li><a href="#" class="nav-link">Témoignages</a></li>
+                    <li><a href="#" class="nav-link">À propos</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn btn-login">Se Connecter</button>
+        </div>
+    </header>
+
+    <main class="artisan-profile">
+        <div class="profile-header">
+            <div class="cover-image">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" alt="Cover">
+            </div>
+            <div class="profile-info">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e" alt="Jean Dupont" class="profile-picture">
+                <div class="info">
+                    <h1>Jean Dupont</h1>
+                    <p class="title">Menuisier</p>
+                    <p class="location">Bruxelles • 15 ans d'expérience • Spécialité: Rénovation intérieure</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="about">
+                <h2>À propos</h2>
+                <p>Je suis artisan menuisier avec plus de 15 ans d'expérience, spécialisé dans les rénovations intérieures et la création de meubles sur mesure. Mon engagement est de fournir un service de qualité rapide et fiable, en mettant un point d'honneur à respecter les détails. Diplômé de l'École Belge, je suis certifié pour garantir un travail soigné et professionnel.</p>
+            </section>
+
+            <section class="portfolio">
+                <h2>Portefeuille de Projets</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1556912998-c57cc6b63cd7" alt="Rénovation de cuisine">
+                        <h3>Rénovation de cuisine</h3>
+                        <p>Rénovation complète</p>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14" alt="Rénovation de salle de bain">
+                        <h3>Rénovation de salle de bain</h3>
+                        <p>Salle 1 semaine, 2800€</p>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Rénovation de salon">
+                        <h3>Rénovation de salon</h3>
+                        <p>Salle 1 semaine, 3500€</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews-header">
+                    <h2>Évaluations et Témoignages</h2>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span>4.8/5 • 250 avis</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e" alt="Ahmed" class="reviewer-image">
+                    <div class="review-content">
+                        <div class="reviewer-info">
+                            <h3>Ahmed Casablanca</h3>
+                            <span class="stars">★★★★★</span>
+                        </div>
+                        <p>J'ai fait appel à Jean pour la rénovation de ma cuisine. Son travail a été impeccable et dans les délais. Il a su répondre à toutes mes demandes et a même proposé des améliorations judicieuses et créatives pour rendre le projet encore meilleur.</p>
+                        <span class="review-date">Mars 2023</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Formulaire de Contact</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                        <button type="button" class="btn btn-secondary">Réserver un rendez-vous</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
